@@ -20,9 +20,9 @@ export class Quote {
   guess(letter) {
     if (!this.text.includes(letter)) {
       return false;
+    } else {
+      this.guessed.push(letter);
+      return true;
     }
-
-    this.guessed.push(letter);
-    return true;
   }
 }

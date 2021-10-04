@@ -10,7 +10,7 @@ class Game {
       category: "Imię mojego kota",
     },
     {
-      text: "Northlane",
+      text: "northlane",
       category: "Mój ulubiony zespół muzyczny",
     },
     {
@@ -26,7 +26,7 @@ class Game {
       category: "mój ulubiony film do którego mam zajebisty sentyment",
     },
     {
-      text: "Cristiano ronaldo",
+      text: "cristiano ronaldo",
       category: "najlepszy piłkarz na świecie",
     },
   ];
