@@ -6,20 +6,28 @@ class Game {
 
   quotes = [
     {
-      text: "Pan Tadeusz",
-      category: "Utwór literacki",
+      text: "puszek",
+      category: "Imię mojego kota",
     },
     {
-      text: "janko muzykant",
-      category: "Utwór literacki",
+      text: "Northlane",
+      category: "Mój ulubiony zespół muzyczny",
     },
     {
-      text: "akademia pana kleksa",
-      category: "Film",
+      text: "kiwi",
+      category: "Mój ulubiony owoc",
     },
     {
-      text: "cristiano ronaldo",
-      category: "piłkarz",
+      text: "gitara",
+      category: "instrument na którym gram",
+    },
+    {
+      text: "harry potter",
+      category: "mój ulubiony film do którego mam zajebisty sentyment",
+    },
+    {
+      text: "Cristiano ronaldo",
+      category: "najlepszy piłkarz na świecie",
     },
   ];
 
