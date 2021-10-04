@@ -3,8 +3,10 @@ html {
     font-family:sans-serif;
 }
 #hangman {
-    width: 800px;
-    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 #word {
@@ -16,6 +18,9 @@ html {
 }
 
 #letters {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     padding: 20px 50px;
 }
 
@@ -26,12 +31,12 @@ html {
 
 #output {
     display: flex;
-    width: 100%;
     margin-bottom:30px;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 #output .step {
-    width: calc(100% / 8);
     border-right:3px #fff solid;
 }
 
@@ -40,7 +45,13 @@ html {
 }
 
 #output .step img {
-    width:100%;
+    width:80px;
+}
+
+@media (min-width: 850px) {
+    #output .step img {
+        width:100px;
+    }
 }
 
 #category {
