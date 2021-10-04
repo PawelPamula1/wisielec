@@ -29,6 +29,30 @@ class Game {
       text: "cristiano ronaldo",
       category: "najlepszy piłkarz na świecie",
     },
+    {
+      text: "tybet",
+      category: "jedno z miejsc na świecie, które chciałbym zwiedzić",
+    },
+    {
+      text: "japonia",
+      category: "jedno z miejsc na świecie, które chciałbym zwiedzić",
+    },
+    {
+      text: "meksyk",
+      category: "jedno z miejsc na świecie, które chciałbym zwiedzić",
+    },
+    {
+      text: "islandia",
+      category: "jedno z miejsc na świecie, które chciałbym zwiedzić",
+    },
+    {
+      text: "tajlandia",
+      category: "jedno z miejsc na świecie, które chciałbym zwiedzić",
+    },
+    {
+      text: "namibia",
+      category: "jedno z miejsc na świecie, które chciałbym zwiedzić",
+    },
   ];
 
   constructor({ lettersWrapper, categoryWrapper, wordWrapper, outputWrapper }) {
@@ -86,7 +110,8 @@ class Game {
   }
 
   loosing() {
-    this.wordWrapper.innerHTML = "NO MASZ CI LOS, TO NIE TO HASŁO...";
+    const markup = `No masz ci los... Tym razem chodziło mi o: <br> <span>${this.quote.text}</span>`;
+    this.wordWrapper.innerHTML = markup;
     this.lettersWrapper.innerHTML = "";
   }
 }

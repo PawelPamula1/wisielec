@@ -17,6 +17,12 @@ html {
     text-align: center;
 }
 
+#word span {
+    font-size: 3rem;
+    color: red;
+    text-transform: capitalize;
+}
+
 #letters {
     display: flex;
     flex-wrap: wrap;
